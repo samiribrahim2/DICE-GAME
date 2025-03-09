@@ -1,0 +1,54 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(52, 53, 62);
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    /* overflow: hidden; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+#welcome_header{
+    font-size: 700%;
+    color: rgba(72, 151, 220, 0.774);
+    line-height: 10vh;
+    margin: 100px;
+}
+#start_header{
+    font-size: xx-large;
+    color: rgba(72, 151, 220, 0.774);
+}
+.game{
+    position: relative;
+    left: 20vw;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    grid: 10vw;
+    /* border: 1px solid black; */
+    margin: 10vh;
+}
+.players{
+    color: rgba(72, 151, 220, 0.774);
+    display: flex;
+    justify-content: space-around;
+    
+}
+.imgs   {
+    display: flex;
+    height: 100%;
+    flex : 1;
+    /* border: solid black 1px; */
+}
+.imgs > img {
+    flex: 0.5;
+    width: 50%;
+    height: 60%;
+    margin: 2rem;
+}
